@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w.org/1999/xmlns">
+<head>
+    <title>Formulário Contato</title>
+    <meta charset="UTF-8"/>
+    <link href="styleRestore.css" rel="stylesheet" media="all" />
+    <script src="formatacao.js"></script>
+   
+</head>
+<body><center>
+
+    <h3><font face="arial" color="white">
+        <a href="index.html">| Página Inicial |</a>
+        <a href="fotos.html">| Galeria de Fotos |</a>
+        <a href="tabela.html">| Tabela de Preços |</a>
+        <a href="Restore.html">| Entre em Contato |</a>
+        </h3></font>
+    <form name="meu_form">
+
+        <h1>Entre em Contato</h1>
+
+        <p class="name">
+            
+            <label for="name">Nome</label>
+            <input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" />
+
+        </p>
+        <p class="fone">
+        <label for="fone">Fone</label>
+        <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+    
+        </p>
+        <p>
+
+        <label for="email">Email</label>
+        <input type="email" id="emailid" placeholder="fulano@gmail.com"
+        name="email" />
+
+        </p>
+        <p>
+            <textarea placeholder="Deixe sua opinião"></textarea>
+        </p>
+
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </center>
+</body>
+</html>

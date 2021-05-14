@@ -1,0 +1,67 @@
+body {
+    padding: ;
+    margin: ;
+    background-color: black;
+    border: 1px solid rgb(109, 11, 155);
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(67, 73, 73);
+    max-width: 500px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.3rem 0;
+    border: 1px solid rgb(109, 11, 155);
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(241, 240, 235);
+    text-shadow: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    color: black;
+    margin-left: px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: black;
+    box-shadow: 5px 0px 9px rgb(123, 20, 240);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.submit input {
+    background-color: rgb(240, 255, 205);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+
+}
+textarea {
+    width: 400px;
+    height: ;
+    line-height: 55px;
+    max-width: 400px;
+}
+form label {
+    margin-left: 20px;
+    color: rgb(246, 245, 247);
+    font-weight: bold;
+}
